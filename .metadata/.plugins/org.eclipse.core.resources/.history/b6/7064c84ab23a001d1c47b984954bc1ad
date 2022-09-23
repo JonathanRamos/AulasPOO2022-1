@@ -1,0 +1,7 @@
+
+public class Aluno extends Pessoa {
+	public Aluno(String nome, String CPF, Date data) {
+		super(nome, CPF, data);
+	}
+	public String matricula;
+}

@@ -1,0 +1,25 @@
+
+public class Pessoa {
+	private String nome;
+	private int idade;
+	private double salarioMensal;
+	private double salarioAnual;
+	
+	
+	public Pessoa() {
+		// construtor vazio
+	}
+	
+	public Pessoa(String nome) {
+		this.nome = nome;
+	}
+	
+	public Pessoa(int idade) {
+		this.idade = idade;
+	}
+	
+	public Pessoa() {
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.example.helloworld;
+
+import javax.swing.*;
+
+public class SwingIntoHellowWorld {
+
+	public static void main(String[] args) {
+		JOptionPane.showInputDialog("Hello World!")
+
+	}
+
+}

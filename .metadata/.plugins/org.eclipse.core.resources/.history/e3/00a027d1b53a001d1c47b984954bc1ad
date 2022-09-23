@@ -1,0 +1,11 @@
+import java.util.Date;
+public class Main {
+    public static void main(String[] args) {
+        String nome = "Aluno a";
+        String CPF = "123.456.789-00";
+        Data data = new Date();
+        Aluno a = new Aluno(nome, CPF, data);
+        System.out.println("Como os atributos ficaram: ");
+        System.out.println(a.toString());
+    }
+}
