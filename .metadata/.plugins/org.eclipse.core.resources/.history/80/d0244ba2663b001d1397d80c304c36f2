@@ -1,5 +1,4 @@
 import java.util.Date;
-
 public class Pessoa {
 	private String nome, CPF;
 	private Date dataNascimento;
@@ -9,7 +8,7 @@ public class Pessoa {
 		this.setCPF(CPF);
 		this.setDataNascimento(data);
 	}
-
+	
 	// Getters and Setters
 	public String getNome() {
 		return nome;
@@ -34,10 +33,13 @@ public class Pessoa {
 	public void setDataNascimento(Date dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
-
+	
+	
 	@Override
 	public String toString() {
-		return " Nome: " + this.nome + " CPF: " + this.CPF + " Nascimento: " + this.dataNascimento;
+		return " Nome: " + this.nome + 
+			    " CPF: " + this.CPF + 
+			    " Nascimento: " + this.dataNascimento;
 	}
-
+	
 }
